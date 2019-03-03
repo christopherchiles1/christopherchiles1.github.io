@@ -1,25 +1,20 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:    redcarpet
+highlighter: pygments
 
-# Permalinks
-permalink:        pretty
+# Site
+permalink: pretty
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:       Chris Chiles
+tagline:     'tagline'
+description: 'description'
+url:         http://christopherchiles.com
+baseurl:     /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name: 'Chris Chiles'
+  url:  http://christopherchiles.com
 
-paginate:         5
+paginate: 1
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+github: https://github.com/christopherchiles1
