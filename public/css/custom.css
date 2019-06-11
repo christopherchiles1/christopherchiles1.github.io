@@ -1,0 +1,24 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar-about h1 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  transition: padding 0.3s;
+  transition-timing-function: ease-out;
+  padding-left: 7px;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.pagination {
+  font-family: Helvetica, Arial, sans-serif;
+}
