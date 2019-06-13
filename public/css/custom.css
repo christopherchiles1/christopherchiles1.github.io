@@ -1,3 +1,16 @@
+
+/* Iframes CSS */
+iframe {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+iframe.youtube_embed {
+  margin-left: 20px;
+}
+
+/* Hyde / Poole CSS Overrides */
 html {
   font-family: Helvetica, Arial, sans-serif;
 }

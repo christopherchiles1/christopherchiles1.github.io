@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Farey Addition"
+title:  "Ford Circles"
 ---
 
 In Arithmetic, we are taught that in order to add fractions, we must first find their least common factor, and multiply each fraction by that factor over itself in order to get a common denominator... this ensures that we get the correct value for our addition, so:
@@ -15,9 +15,16 @@ Let's start by defining our new form of addition. In the example given above, we
 
 This is named Farey addition, after Farey (Insert more historical research here).
 
-<iframe src="https://www.christopherchiles.com/ford_circles"></iframe>
+{% include js_project_embed.html project_name='ford_circles' %}
 
 ## Resources
 
-* Numberphile: [Funny Fractions and Ford Circles](https://www.youtube.com/watch?v=0hlvhQZIOQw)
-* The Coding Train: [Coding Challenge #77: Recursion](https://www.youtube.com/watch?v=jPsZwrV9ld0)
+#### Numberphile: Funny Fractions and Ford Circles
+In this video, Francis Bonahon plays around with Farey addition, and shows its geometric analog, Ford circles.
+
+{% include youtube_embed.html id='0hlvhQZIOQw' %}
+
+#### Coding Train: Recursion
+In this video, Daniel Shiffman discusses recursion, and implements recursion visually using [p5.js](https://p5js.org/). When I saw this video, it gave me the idea to code up the Ford circles from Numberphile in an interactive way, using p5.
+
+{% include youtube_embed.html id='jPsZwrV9ld0' %}
