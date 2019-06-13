@@ -1,4 +1,3 @@
-
 /* Iframes CSS */
 iframe {
   border: none;
@@ -21,10 +20,16 @@ html {
 
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  transition: padding 0.3s;
-  transition-timing-function: ease-out;
-  padding-left: 7px;
   text-decoration: none;
+}
+
+@media (min-width: 58em) {
+  a.sidebar-nav-item:hover,
+  a.sidebar-nav-item:focus {
+    transition: padding 0.3s;
+    transition-timing-function: ease-out;
+    padding-left: 7px;
+  }
 }
 
 a:hover,
@@ -34,4 +39,38 @@ a:focus {
 
 .pagination {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar .container {
+  position: relative;
+  height: 100%;
+}
+
+.sidebar-nav {
+  margin-bottom: 50px;
+}
+
+.sidebar-footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.sidebar-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-footer li {
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+}
+
+@media (min-width: 58em) {
+  .sidebar-footer li {
+    padding: 0px 10px 0px 10px;
+  }
 }
