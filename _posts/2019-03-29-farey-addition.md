@@ -2,16 +2,19 @@
 layout: post
 title:  "Ford Circles"
 ---
-
 In Arithmetic, we are taught that in order to add fractions, we must first find their least common factor, and multiply each fraction by that factor over itself in order to get a common denominator... this ensures that we get the correct value for our addition, so:
 
-1/2 + 1/3 = 1/2(3/3) + 1/3(2/2) = 3/6 + 2/6 = 5/6
+{% katex display %}
+\frac{1}{2} + \frac{1}{3} = \frac{1}{2}\left(\frac{3}{3}\right) + \frac{1}{3}\left(\frac{2}{2}\right) = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}
+{% endkatex %}
 
 However, in mathematics we can define whatever operations we want, so long as we can get others to agree! What if we let ourselves add fractions simply by adding their numerator and denominator, respectively? Would this just produce nonsense, or can we find some analog between this new form of addition and reality?
 
 Let's start by defining our new form of addition. In the example given above, we would do the following:
 
-1/2 + 1/3 = (1 + 1) / (2 + 3) = 2/5
+{% katex display %}
+\frac{1}{2} \oplus \frac{1}{3} = \frac{(1 + 1)}{(2 + 3)} = \frac{2}{5}
+{% endkatex %}
 
 This is named Farey addition, after Farey (Insert more historical research here).
 

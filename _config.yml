@@ -16,4 +16,7 @@ author:
 
 paginate: 1
 
+plugins:
+  - jekyll-katex
+
 github: https://github.com/christopherchiles1
