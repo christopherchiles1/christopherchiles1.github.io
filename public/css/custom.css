@@ -9,6 +9,10 @@ iframe.youtube_embed {
   margin-left: 20px;
 }
 
+iframe.js_project_embed {
+  border: 1px solid;
+}
+
 /* Hyde / Poole CSS Overrides */
 html {
   font-family: Helvetica, Arial, sans-serif;
