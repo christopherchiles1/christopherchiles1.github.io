@@ -10,16 +10,15 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Projects</a>
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% for site_page in site.pages %}
+        {% if site_page.title != null %}
+          {% if site_page.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == site_page.url %} active{% endif %}" href="{{ site_page.url }}">{{ site_page.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
+
+      <a class="sidebar-nav-item{% if page.url == site.baseurl or page.url contains 'page' %} active{% endif %}" href="{{ site.baseurl }}">Projects</a>
     </nav>
 
     <div class="sidebar-footer">

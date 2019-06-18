@@ -36,6 +36,12 @@ a.sidebar-nav-item:focus {
   }
 }
 
+@media (min-width: 58em) {
+  .sidebar-nav-item.active {
+    padding-left: 7px;
+  }
+}
+
 a:hover,
 a:focus {
   text-decoration: none;
