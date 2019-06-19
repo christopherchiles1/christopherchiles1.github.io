@@ -7,12 +7,12 @@ permalink: pretty
 
 title:       Chris Chiles
 description: 'Sr. Software Engineer'
-url:         http://christopherchiles.com
-baseurl:     http://christopherchiles.com/
+url:         https://christopherchiles.com
+baseurl:     https://christopherchiles.com/
 
 author:
   name: 'Chris Chiles'
-  url:  http://christopherchiles.com
+  url:  https://christopherchiles.com
 
 paginate: 1
 
