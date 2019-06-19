@@ -5,13 +5,13 @@ title:  "Times Tables"
 
 An envelope is a curve created by a series of tangent lines. Some fascinating curves can be created by tracing tangent lines as chords on a circle, using the rules of multiplication in modular arithmetic.
 
-In modular arithmetic, operations are done on a circle instead of a number line. Some {% katex %}n{% endkatex %} points can be wrapped evenly around in a circle, and then a chord can be drawn between any two points, if the points are related under multiplication by {% katex %}x{% endkatex %}.
+In modular arithmetic, operations are done on a circle instead of a number line. Some $n$ points can be wrapped evenly around in a circle, and then a chord can be drawn between any two points, if the points are related under multiplication by $x$.
 
-The demonstration below starts with a modulus of {% katex %}200{% endkatex %}, representing the number of points around the circle, and a multiplier of {% katex %}2{% endkatex %}, representing the multiplier used to draw chords.
+The demonstration below starts with a modulus of $200$, representing the number of points around the circle, and a multiplier of $2$, representing the multiplier used to draw chords.
 
-A chord is drawn from from the {% katex %}12th{% endkatex %} point around the circle to the {% katex %}24th{% endkatex %} point, since they are related under multiplication by {% katex %}2{% endkatex %}.
+A chord is drawn from from the $12th$ point around the circle to the $24th$ point, since they are related under multiplication by $2$.
 
-Similarly, a chord is drawn from the {% katex %}132nd{% endkatex %} point around the circle to the {% katex %}64th{% endkatex %} point, since {% katex %}2 \times 132 = 264 \equiv 64 \pmod{200}{% endkatex %}.
+Similarly, a chord is drawn from the $132nd$ point around the circle to the $64th$ point, since $2 \times 132 = 264 \equiv 64 \pmod{200}$.
 
 Once all chords are drawn, a clear envelope can be seen, forming the shape of a cardioid!
 

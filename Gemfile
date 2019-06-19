@@ -12,5 +12,5 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-paginate"
-  gem 'jekyll-katex'
+  # gem 'jekyll-katex' # Doesn't work with github-pages... :(
 end
