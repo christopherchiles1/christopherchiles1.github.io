@@ -5,10 +5,6 @@ iframe {
   padding: 0;
 }
 
-iframe.youtube_embed {
-  margin-left: 20px;
-}
-
 iframe.js_project_embed {
   border: 1px solid;
 }
